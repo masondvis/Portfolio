@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    max-width: 100%d;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+}
+
+header h1 {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 15px;
+}
+
+header nav ul li a {
+    font-size: 1.55vw;
+    
+}
+
+.hero {
+    font-size: 25px;
+    text-align: right;
+    margin: 0 5px 30px 0;
+    color: var(--primary-color);
+    margin-bottom: 150px;
+}
+
+.bio {
+    display: flex;
+    margin-bottom: 150px;
+    margin-right: 50px;
+}
+
+.bio h2 {
+    margin-left: 100px;
+    font-size: 40px;
+    color: var(--secondary-color);
+    text-align: right;
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bio p {
+    margin: 0 200px 0 10px;
+    font-size: 20px;
+    color: var(--tertiary-color);
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 2px solid var(--primary-color);
+    padding: 25px
+    
+}
+
